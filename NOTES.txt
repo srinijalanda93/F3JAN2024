@@ -1,0 +1,6 @@
+11/02/2024
+shallow copy (...,Object.assign({},orginal_object)) ->demerits (nested [],{})
+     |
+Deep copy (JSON.parse(JSON.stringfiy(obj/array))) ->demerits(function,methods map,Date,set,bold)
+     |
+StructuredClone :using StructuredClone algorithm

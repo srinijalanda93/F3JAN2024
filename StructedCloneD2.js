@@ -16,6 +16,7 @@ let original_obj1 = {
     email: "ls@gmail.com",
     createdDate:new Date(),
     getdetails:function(){
+      console.log("this keyword",original_obj1)
         console.log(`my NAME is ${this.name} and email id is ${this.email}`)
     }
   };

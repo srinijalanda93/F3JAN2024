@@ -1,9 +1,10 @@
 /**
  * Adavace Js
  * 1.shallow copy
+ * 2.Deep Copy
  */
 /**
- * we know that non-primitiive data type like Arrays and object stores the
+ * we know that non-primitive data type like Arrays and object stores the
  * references (memory allocation)
  * -if the user want the copy of Array/Object values not the reference we use
  * 1.ShallowCopy
@@ -77,7 +78,7 @@ let original_obj = {
 };
 //for this we use the Deep copy where it remove the reference of the nest array and nested object reference
 /**DEEP COPY
- * for we use JSON.stringfiy(obj) =>make the given non-primitive into the string removing all the reference
+ * for we use JSON.stringfiy(obj) => the given non-primitive into the string removing all the reference
  * JSON.prase(JSON.stringfiy(obj)) =>make to it original position but different memory allocations
  * 
  * DISADVANTAGE OF DEEP COPY 
